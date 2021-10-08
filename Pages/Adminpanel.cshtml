@@ -1,0 +1,30 @@
+﻿@page
+@model AutoServiceGeniralsMotors.Pages.AdminpanelModel
+@{
+    ViewData["Title"] = "Панель администратора";
+}
+
+<h1>Все пользователи</h1>
+
+@foreach(var user in Model.UserManager.Users)
+{
+    <div class="card mb-3">
+        <div class=card-header>
+            @user.Email
+        </div>
+        <div class=card-body>
+            <h5 class=card-title>@user.UserName</h5>
+            <h6>User number</h6>
+            @foreach(var roles in await Model.UserManager.GetRolesAsync(user))
+            {
+                <h6>@roles.ToString()</h6>
+            }
+        </div>
+        <div class="card-footer">
+            <form method="post">
+                <button class="btn btn-primary" asp-route-id="@user.Id" asp-page-handler="EditUser" >Edit</button>
+                <button class="btn btn-danger" asp-route-id="@user.Id"  asp-page-handler="DeleteUser" >Delete</button>
+            </form>
+        </div>
+    </div>
+}

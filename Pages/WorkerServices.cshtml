@@ -1,0 +1,33 @@
+﻿@page
+@model AutoServiceGeniralsMotors.Pages.WorkerServicesModel
+@{
+    ViewData["Title"] = "Заказы";
+}
+
+<div style="text-align">
+   <h1>Заказы</h1>
+</div>
+
+<div>
+    @foreach(var service in Model.autoServiceContext.ServiceMerges)
+    {
+        <div class="card mb-3">
+            <div class=card-header>
+                <h6>@Model.autoServiceContext.AutoMarks.Find(Model.autoServiceContext.Automobiles.Find(service.Automobile)).MarkName</h6>
+                <h6>@Model.autoServiceContext.BodyTypes.Find(Model.autoServiceContext.Automobiles.Find(service.Automobile)).BodyName</h6>
+                <h6>@Model.autoServiceContext.Automobiles.Find(service.Automobile).NumberAuto</h6>
+            </div>
+            <div class=card-body>
+                @if (service.ServiceStatus == false)
+                {
+                    <h5 class="text-danger">Заявка обрабатывается</h5>
+                    <button asp-route-id="@service.Id" asp-page-handler="Close" class="btn btn-primary">Закрыть заявку</button>
+                }
+                else
+                {
+                    <h5 class="text-danger">Заявка обработана</h5>
+                }
+            </div>
+        </div>
+    }
+</div>

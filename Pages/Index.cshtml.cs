@@ -21,5 +21,10 @@ namespace AutoServiceGeniralsMotors.Pages
         {
 
         }
+
+        public IActionResult OnPostWrite()
+        {
+            return RedirectToPage("./Appointment");
+        }
     }
 }

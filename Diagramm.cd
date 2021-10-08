@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AutoServiceGeniralsMotors.Models.AspNetRole">
+    <Position X="9.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAQAAAAAAAAQAAAAAAAAACBAABAAAAAA=</HashCode>
+      <FileName>Models\AspNetRole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoServiceGeniralsMotors.Models.Roles">
+    <Position X="11.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAABAAAAAAAQAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Models\IdentityModels\Roles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoServiceGeniralsMotors.Models.AutoServiceContext">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIAEAAIQAwAQgAAAACBIAAAAMAAAUBAACBAAAAAAEAE=</HashCode>
+      <FileName>Models\AutoServiceContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoServiceGeniralsMotors.Models.AspNetRoleClaim">
+    <Position X="2.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAIAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\AspNetRoleClaim.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoServiceGeniralsMotors.Models.AspNetUser">
+    <Position X="13" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACGAAAABCAAoEAIACBAQAABQAAAQAAIARQABAAAAQA=</HashCode>
+      <FileName>Models\AspNetUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoServiceGeniralsMotors.Models.AspNetUserClaim">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAAAAAAAQAAAAAgAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\AspNetUserClaim.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoServiceGeniralsMotors.Models.AspNetUserLogin">
+    <Position X="4.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAgAAAAAEAAAABAAAAAAAAA=</HashCode>
+      <FileName>Models\AspNetUserLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoServiceGeniralsMotors.Models.AspNetUserRole">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAIAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AspNetUserRole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoServiceGeniralsMotors.Models.AspNetUserToken">
+    <Position X="2.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAwAAAAAEAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Models\AspNetUserToken.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoServiceGeniralsMotors.Models.AutoMark">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AutoMark.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoServiceGeniralsMotors.Models.AutoModel">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAAAAAAAAAAAAAAAAAAAABAACAAAAAABA=</HashCode>
+      <FileName>Models\AutoModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoServiceGeniralsMotors.Models.Automobile">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAIBAAAAAAAAAAAJAQAAAAIAABAEAAgAAAAAAAQ=</HashCode>
+      <FileName>Models\Automobile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoServiceGeniralsMotors.Models.BodyType">
+    <Position X="2.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\BodyType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoServiceGeniralsMotors.Models.Client">
+    <Position X="13" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAAAABAAAAABAAAAAAIAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoServiceGeniralsMotors.Models.ClientCategory">
+    <Position X="11.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAACAAAAAAAiAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ClientCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoServiceGeniralsMotors.Models.Employer">
+    <Position X="6" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAgAAAAAQAAAAIABAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Employer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoServiceGeniralsMotors.Models.Image">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Models\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoServiceGeniralsMotors.Models.Motor">
+    <Position X="0.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAgAAgAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Models\Motor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoServiceGeniralsMotors.Models.ServiceMerge">
+    <Position X="6" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAGgAAAAQAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ServiceMerge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoServiceGeniralsMotors.Models.TypeService">
+    <Position X="4.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAUAAAABAA=</HashCode>
+      <FileName>Models\TypeService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoServiceGeniralsMotors.Migrations.ApplicationDbContextModelSnapshot">
+    <Position X="11.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Migrations\ApplicationDbContextModelSnapshot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoServiceGeniralsMotors.Data.ApplicationDbContext">
+    <Position X="11.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\ApplicationDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
